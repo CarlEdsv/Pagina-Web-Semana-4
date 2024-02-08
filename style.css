@@ -19,9 +19,20 @@ ul {
     list-style: none; 
     padding: 0; 
 }
-/* 
-.boton {
-    background-color: transparent;
-    border: 1px solid #000; 
-    padding: 10px;
-}*/
+
+#input2{
+    width: 100%;
+}
+
+#correo_invalido{
+    color: red;
+    border-color: red;
+}
+
+#twitter{
+    width: 100%;
+}
+
+.twitterbox{
+    background-color:cornflowerblue;
+}
