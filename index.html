@@ -69,16 +69,48 @@
         </div>
         <div class="row">
           <div class="col-sm ejemplos">
-            Ejemplo 1
+            <label> Ingrese su nombre:</label>
+            <input id="Un nombre y un apellido" placeholder="Que vayan mayusculas">
+            <script> 
+              
+              document.getElementById('Un nombre y un apellido').addEventListener('mouseover', function() {
+                  document.getElementById('Un nombre y un apellido').style.backgroundColor = '#3498db';
+              });
+          
+              
+              document.getElementById('Un nombre y un apellido').addEventListener('mouseout', function() {
+                  document.getElementById('Un nombre y un apellido').style.backgroundColor = '';
+              });
+          </script>
           </div>
           <div class="col-sm ejemplos">
-            Ejemplo 2
-          </div>
-          <div class="col-sm ejemplos">
-            Ejemplo 3
-          </div>
+            <label> Ingrese su edad:</label>
+            <input id="miEdadInput" placeholder="Escriba en números">
+            <script>
+                document.getElementById('miEdadInput').addEventListener('mouseover', function() {
+                    document.getElementById('miEdadInput').style.backgroundColor = '#e74c3c';
+                });
+        
+                document.getElementById('miEdadInput').addEventListener('mouseout', function() {
+                    document.getElementById('miEdadInput').style.backgroundColor = '';
+                });
+            </script>
         </div>
-
+        
+        <div class="col-sm ejemplos">
+          <label>Escribe una frase que te guste:</label>
+          <input id="miInputFrase" placeholder="Escribe aquí">
+          <script>
+              document.getElementById('miInputFrase').addEventListener('mouseover', function() {
+                  document.getElementById('miInputFrase').style.backgroundColor = '#00FF00';
+              });
+      
+              document.getElementById('miInputFrase').addEventListener('mouseout', function() {
+                  document.getElementById('miInputFrase').style.backgroundColor = '';
+              });
+          </script>
+      </div>
+      
     </div>
     <script src="script.js"></script>
 </body>
@@ -86,7 +118,8 @@
     <h5>INTEGRANTES: </h5>
     <div>
         <ul>
-            <li>Carlos Eduardo Mejía Luna: Smss061022</li>
+            <li>Carlos Eduardo Mejía Luna: SMSS061022</li>
+            <li>Fredy Alexander Funes Ortiz: SMSS034922</li>
         </ul>
     </div>
 
